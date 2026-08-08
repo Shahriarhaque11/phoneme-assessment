@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# PhonemeLab
 
-## Getting Started
+PhonemeLab is a frontend classroom activity builder developed for Assessment 1: Frontend Design and Usability.
 
-First, run the development server:
+The application is designed for Speech Pathology teachers and allows users to create, preview and export phoneme-based Wordle and Word Search activities.
+
+## Features
+
+- Responsive Home, About, Wordle, Word Search and Settings pages
+- HCE phoneme-based Wordle activity
+- Phoneme keyboard with English-letter hints
+- Configurable number of Wordle guesses
+- Phoneme Word Search using a small five-word list
+- Horizontal, vertical and diagonal word placement
+- Teacher preview and answer display
+- Standalone playable HTML generation
+- Light and dark interface themes
+- Theme preference stored in browser cookies
+- Keyboard-accessible interface and visible focus states
+- Responsive layout for different screen sizes
+- Reusable React components
+
+## Technology
+
+- Next.js
+- React
+- JavaScript
+- HTML
+- CSS
+
+The project was created using `npx create-next-app`.
+
+## Running the project
+
+Install dependencies:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+npm install
